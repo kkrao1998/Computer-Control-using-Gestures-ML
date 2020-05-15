@@ -1,4 +1,5 @@
-# image-classification-tensorflow  
+# Computer-Control-using-Gestures-ML
+
 A generic image classification program that uses Google's Machine Learning library, [Tensorflow](https://www.tensorflow.org/) and a pre-trained Deep Learning Convolutional Neural Network model called [Inception](https://research.googleblog.com/2016/03/train-your-own-image-classifier-with.html).
 
 This model has been pre-trained for the [ImageNet](http://image-net.org/) Large Visual Recognition Challenge using the data from 2012, and it can differentiate between 1,000 different classes, like Dalmatian, dishwasher etc.
@@ -6,12 +7,14 @@ The program applies Transfer Learning to this existing model and re-trains it to
 
 
 ## Installation
-Make sure you have [Python](https://www.python.org/) installed, then install [Tensorflow](https://www.tensorflow.org/install/) on your system, and clone this repo.
+Make sure you have [Python](https://www.python.org/) installed, then install [Tensorflow](https://www.tensorflow.org/install/) on your system, and clone this repo. You'll also need OpenCV to run this program.
 
 
 ## Usage
 
 ### Prepare the image data sets
+NOTE : I haven't included dataset in the repo but this can be done the following way.
+
 In order to start the transfer learning process, a folder named ``dataset`` needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for whom the classification is to be performed.
 
 Create the ``dataset`` folder and add the images for all the data sets in the following manner:
